@@ -51,33 +51,33 @@ $schema = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#298acc">
+    <meta name="theme-color" content="#0a1422">
 
-    <title>Himachal Tour Packages | <?php echo htmlspecialchars($appName) ?></title>
-    <meta name="description" content="<?php echo htmlspecialchars($appName) ?> - Customised Himachal tour packages. Shimla, Manali, Kasol, Jibhi, Kullu & Tirthan Valley. Free quotes in 5 minutes.">
-    <meta name="keywords" content="Himachal tour packages, Shimla tour, Manali tour, Kasol tour, Jibhi tour, Tirthan Valley, Kullu, Honeymoon packages, Family tours, <?php echo htmlspecialchars($appName) ?>">
+    <title>Spiti Valley Tour Packages | <?php echo htmlspecialchars($appName) ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($appName) ?> - Customised Spiti Valley tour packages. Kaza, Chandratal, Tabo, Chitkul, Kalpa, Dhankar & Kinnaur circuit. Free quotes in 5 minutes.">
+    <meta name="keywords" content="Spiti Valley tour packages, Spiti Valley trip, Chandratal Lake, Kaza tour, Tabo Monastery, Chitkul, Kibber, Key Monastery, Kunzum Pass, Kinnaur Spiti circuit, <?php echo htmlspecialchars($appName) ?>">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo htmlspecialchars($appUrl) ?>">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Himachal Tour Packages | <?php echo htmlspecialchars($appName) ?>">
-    <meta property="og:description" content="Customised Himachal tour packages. Free quotes in 5 minutes.">
-    <meta property="og:image" content="<?php echo htmlspecialchars($appUrl) ?>/assets/img/himachal/himachal-banner.jpg">
+    <meta property="og:title" content="Spiti Valley Tour Packages | <?php echo htmlspecialchars($appName) ?>">
+    <meta property="og:description" content="Customised Spiti Valley tour packages. Free quotes in 5 minutes.">
+    <meta property="og:image" content="<?php echo htmlspecialchars($appUrl) ?>/assets/img/himachal/spiti-valley.jpg">
     <meta property="og:url" content="<?php echo htmlspecialchars($appUrl) ?>">
     <meta property="og:site_name" content="<?php echo htmlspecialchars($appName) ?>">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Himachal Tour Packages | <?php echo htmlspecialchars($appName) ?>">
-    <meta name="twitter:description" content="Customised Himachal tour packages. Free quotes in 5 minutes.">
-    <meta name="twitter:image" content="<?php echo htmlspecialchars($appUrl) ?>/assets/img/himachal/himachal-banner.jpg">
+    <meta name="twitter:title" content="Spiti Valley Tour Packages | <?php echo htmlspecialchars($appName) ?>">
+    <meta name="twitter:description" content="Customised Spiti Valley tour packages. Free quotes in 5 minutes.">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($appUrl) ?>/assets/img/himachal/spiti-valley.jpg">
 
     <!-- Favicon -->
     <link rel="icon" href="<?php echo htmlspecialchars($appUrl) ?>/assets/img/brand/logo-white.png" type="image/png">
 
     <!-- Preload critical assets -->
-    <link rel="preload" as="image" href="<?php echo htmlspecialchars($appUrl) ?>/assets/img/himachal/himachal-banner.jpg">
+    <link rel="preload" as="image" href="<?php echo htmlspecialchars($appUrl) ?>/assets/img/himachal/spiti-valley.jpg">
 
     <!-- Bootstrap 5.3 CSS -->
     <link rel="stylesheet" href="<?php echo htmlspecialchars($appUrl) ?>/assets/css/variables.css?v=<?php echo filemtime(dirname(__DIR__, 3).'/assets/css/variables.css') ?>">
@@ -86,10 +86,10 @@ $schema = [
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <!-- Google Fonts: Poppins + Playfair Display -->
+    <!-- Google Fonts: Poppins + Cinzel (Spiti – ancient monastic feel) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -117,8 +117,8 @@ $schema = [
 <div class="me-top-bar" role="complementary" aria-label="Announcement">
     <div class="container">
         <p class="me-top-bar__text">
-            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
-            Book Now &amp; Get Up to 15% OFF on Shimla Manali Tour Package!
+            <i class="fa-solid fa-mountain" aria-hidden="true"></i>
+            Early Bird Offer — Book Your Spiti Valley Package &amp; Save Big This Season!
             <a href="#get-quote" class="me-top-bar__cta">Get Free Quote &rarr;</a>
         </p>
     </div>
@@ -129,7 +129,7 @@ $schema = [
     <div class="container">
         <div class="me-top-header__inner">
             <a href="/" class="me-top-header__logo">
-                <img src="<?php echo htmlspecialchars($appUrl) ?>/assets/img/brand/logo-dark.png" alt="<?php echo htmlspecialchars($appName) ?>" height="52">
+                <img src="<?php echo htmlspecialchars($appUrl) ?>/assets/img/brand/logo-white.png" alt="<?php echo htmlspecialchars($appName) ?>" height="52">
             </a>
             <div class="me-top-header__right">
                 <ul class="me-top-header__contacts">
@@ -169,24 +169,24 @@ $schema = [
         <div class="row align-items-center me-hero__row">
             <!-- Left content -->
             <div class="col-lg-7 col-12 text-white me-hero__content">
-                <p class="me-hero__eyebrow"><span class="me-hero__eyebrow-badge"><i class="fa-solid fa-tag" aria-hidden="true"></i> Book Now &amp; Get Up to 15% OFF on Shimla Manali Tour Package!</span></p>
+                <p class="me-hero__eyebrow"><span class="me-hero__eyebrow-badge"><i class="fa-solid fa-mountain" aria-hidden="true"></i> Early Bird Offer — Book Spiti Valley &amp; Save Big This Season!</span></p>
                 <h1 class="me-hero__title">
-                    Discover <span class="me-hero__title-accent">Himachal Tour Packages</span>
+                    Explore <span class="me-hero__title-accent">Spiti Valley Tour Packages</span>
                 </h1>
-                <p class="me-hero__subtitle">Experience the magic of the mountains with handcrafted holidays &mdash; <strong>Shimla, Manali, Kasol, Jibhi &amp; beyond.</strong></p>
+                <p class="me-hero__subtitle">Journey to the roof of the world &mdash; <strong>Kaza, Chandratal, Tabo, Chitkul, Kibber &amp; beyond.</strong></p>
                 <div class="me-hero__locations">
-                    <span class="me-hero__loc-pill">Shimla</span>
-                    <span class="me-hero__loc-pill">Manali</span>
-                    <span class="me-hero__loc-pill">Kasol</span>
-                    <span class="me-hero__loc-pill">Jibhi</span>
-                    <span class="me-hero__loc-pill">Kullu</span>
-                    <span class="me-hero__loc-pill">Tirthan Valley</span>
+                    <span class="me-hero__loc-pill">Kaza</span>
+                    <span class="me-hero__loc-pill">Chandratal</span>
+                    <span class="me-hero__loc-pill">Tabo</span>
+                    <span class="me-hero__loc-pill">Chitkul</span>
+                    <span class="me-hero__loc-pill">Kibber</span>
+                    <span class="me-hero__loc-pill">Kunzum Pass</span>
                 </div>
 
                 <div class="me-hero__chips" role="list">
                     <div class="me-hero__chip" role="listitem">
                         <img src="<?php echo htmlspecialchars($appUrl) ?>/assets/img/icons/mountain.png" alt="" width="48" height="48" loading="lazy">
-                        <span>Mountains</span>
+                        <span>High Altitude</span>
                     </div>
                     <div class="me-hero__chip" role="listitem">
                         <img src="<?php echo htmlspecialchars($appUrl) ?>/assets/img/icons/adventure.png" alt="" width="48" height="48" loading="lazy">
@@ -194,7 +194,7 @@ $schema = [
                     </div>
                     <div class="me-hero__chip" role="listitem">
                         <img src="<?php echo htmlspecialchars($appUrl) ?>/assets/img/icons/camping.png" alt="" width="48" height="48" loading="lazy">
-                        <span>Camping</span>
+                        <span>Monasteries</span>
                     </div>
                 </div>
 
@@ -215,7 +215,7 @@ $schema = [
                     </div>
                     <div class="me-hero__trust-item">
                         <i class="fa-solid fa-users" aria-hidden="true"></i>
-                        <span>10,000+ Travellers</span>
+                        <span>5,000+ Spiti Travellers</span>
                     </div>
                 </div>
                 <a href="#packages" class="me-hero__scroll" aria-label="Scroll to packages">
@@ -283,8 +283,8 @@ $schema = [
         </div>
     </div>
     <div class="me-hero__wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,20 C480,65 960,5 1440,35 L1440,60 L0,60 Z" fill="#f7f9fc"/>
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,60 L80,30 L160,50 L260,10 L370,45 L480,5 L580,38 L680,12 L780,42 L880,8 L980,35 L1080,15 L1180,44 L1280,20 L1360,50 L1440,28 L1440,80 L0,80 Z" fill="#0a1422"/>
         </svg>
     </div>
 </section>

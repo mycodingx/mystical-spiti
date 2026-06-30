@@ -41,7 +41,7 @@ try {
     echo "[render-test] Honeypot: " . (str_contains($html, 'me-honeypot') ? 'YES' : 'NO') . "\n";
     echo "[render-test] Sticky bar: " . (str_contains($html, 'me-sticky-bar') ? 'YES' : 'NO') . "\n";
     echo "[render-test] Exit-intent: " . (str_contains($html, 'exitIntentModal') ? 'YES' : 'NO') . "\n";
-    echo "[render-test] All packages show: " . substr_count($html, 'data-package-slug') . " (expected 12)\n";
+    echo "[render-test] All packages show: " . substr_count($html, 'data-package-slug') . " (expected 6)\n";
 } catch (Throwable $e) {
     ob_end_clean();
     echo "FAIL: " . $e->getMessage() . "\n";

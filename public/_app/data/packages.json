@@ -1,586 +1,435 @@
 [
-  {
-    "slug": "shimla",
-    "title": "Shimla Tour Package",
-    "image": "shimla.jpg",
-    "duration": "3N / 4D",
-    "price": "On Request",
-    "destinations": ["Shimla", "Kufri", "Chail", "Mall Road"],
-    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Arrival in Shimla",
-        "desc": "Hotel check-in, evening visit to Mall Road and the Ridge."
-      },
-      {
-        "day": 2,
-        "title": "Shimla & Kufri Sightseeing",
-        "desc": "Kufri, Green Valley, and Jakhoo Temple."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Chail Excursion",
-        "desc": "Chail Palace and Cricket Ground."
-      },
-      {
-        "day": 4,
-        "title": "Departure from Shimla",
-        "desc": "Check-out and departure."
-      }
-    ]
-  },
-  {
-    "slug": "manali",
-    "title": "Manali Tour Package",
-    "image": "manali-4.jpg",
-    "duration": "5N / 6D",
-    "price": "On Request",
-    "destinations": ["Manali", "Kullu", "Solang Valley"],
-    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Delhi to Manali (Overnight Volvo)",
-        "desc": "Evening departure by AC Volvo."
-      },
-      {
-        "day": 2,
-        "title": "Arrival in Manali & Leisure",
-        "desc": "Hotel check-in, rest & romantic Mall Road walk."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Solang Valley / Rohtang Pass",
-        "desc": "Snow activities, scenic views (seasonal)."
-      },
-      {
-        "day": 4,
-        "title": "Manali Local Sightseeing",
-        "desc": "Hadimba Temple, Vashisht Hot Springs & Old Manali."
-      },
-      {
-        "day": 5,
-        "title": "Kullu & Manikaran Excursion",
-        "desc": "Kullu Valley & Manikaran Sahib hot springs."
-      },
-      {
-        "day": 6,
-        "title": "Manali to Delhi",
-        "desc": "Comfortable return journey."
-      }
-    ]
-  },
-  {
-    "slug": "shimla-manali",
-    "title": "Shimla Manali Tour from Chandigarh",
-    "image": "manali-4.jpg",
-    "duration": "5N / 6D",
-    "price": "On Request",
-    "destinations": ["Shimla", "Kufri", "Manali"],
-    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Chandigarh to Shimla",
-        "desc": "Scenic drive & hotel check-in."
-      },
-      {
-        "day": 2,
-        "title": "Shimla Local Sightseeing",
-        "desc": "Kufri, Jakhoo Temple, Mall Road & Ridge."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Shimla to Manali",
-        "desc": "Drive via Kullu Valley."
-      },
-      {
-        "day": 4,
-        "title": "Manali Local Sightseeing",
-        "desc": "Hadimba Temple, Vashisht, Tibetan Monastery."
-      },
-      {
-        "day": 5,
-        "title": "Solang Valley / Rohtang Pass",
-        "desc": "Snow activities & mountain views (seasonal)."
-      },
-      {
-        "day": 6,
-        "title": "Manali to Chandigarh",
-        "desc": "Return journey & tour ends."
-      }
-    ]
-  },
-  {
-    "slug": "sissu-keylong",
-    "title": "Sissu | Keylong | Jispa & Baralacha Pass",
-    "image": "manali-3.jpg",
-    "duration": "3N / 4D",
-    "price": "On Request",
-    "destinations": ["Sissu", "Keylong", "Jispa", "Atal Tunnel"],
-    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Manali to Sissu",
-        "desc": "Manali - Solang - Atal Tunnel - Sissu."
-      },
-      {
-        "day": 2,
-        "title": "Sissu to Baralacha Pass",
-        "desc": "Tandi - Keylong - Jispa - Deepak Taal - Suraj Taal - Baralacha."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Keylong",
-        "desc": "Udaipur Trilokinath Temple - return to Keylong."
-      },
-      {
-        "day": 4,
-        "title": "Keylong | Departure",
-        "desc": "Keylong - Manali - return journey."
-      }
-    ]
-  },
-  {
-    "slug": "honeymoon",
-    "title": "Incredible Honeymoon Package",
-    "image": "himachal-3.jpg",
-    "duration": "4N / 5D",
-    "price": "On Request",
-    "destinations": ["Shimla", "Manali", "Kullu"],
-    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Arrival in Shimla",
-        "desc": "Check-in, relaxed evening together."
-      },
-      {
-        "day": 2,
-        "title": "Shimla Sightseeing & Kufri",
-        "desc": "Kufri, Mall Road, scenic mountain views."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Shimla to Manali",
-        "desc": "Romantic drive through valleys."
-      },
-      {
-        "day": 4,
-        "title": "Manali Local Sightseeing",
-        "desc": "Hadimba Temple, Vashisht, Old Manali."
-      },
-      {
-        "day": 5,
-        "title": "Departure from Manali",
-        "desc": "Check-out and depart."
-      }
-    ]
-  },
-  {
-    "slug": "complete-himachal",
-    "title": "Complete Himachal Tour Package",
-    "image": "himachal-2.jpg",
-    "duration": "10N / 11D",
-    "price": "On Request",
-    "destinations": ["Shimla", "Manali", "Dharamshala", "Dalhousie"],
-    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Delhi to Shimla (Overnight Volvo)",
-        "desc": "Evening departure from Delhi."
-      },
-      {
-        "day": 2,
-        "title": "Shimla Arrival & Local Sightseeing",
-        "desc": "Kufri, Jakhoo, Mall Road."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Shimla to Manali",
-        "desc": "Scenic drive via Kullu Valley."
-      },
-      {
-        "day": 4,
-        "title": "Manali Local Sightseeing",
-        "desc": "Hadimba, Vashisht, Tibetan Monastery."
-      },
-      {
-        "day": 5,
-        "title": "Solang Valley / Rohtang Pass",
-        "desc": "Snow activities (seasonal)."
-      },
-      {
-        "day": 6,
-        "title": "Manali to Dharamshala",
-        "desc": "Palampur tea gardens en route."
-      },
-      {
-        "day": 7,
-        "title": "Dharamshala & McLeodganj",
-        "desc": "Dalai Lama Temple, Bhagsu Falls."
-      },
-      {
-        "day": 8,
-        "title": "Dharamshala to Dalhousie",
-        "desc": "Leisure evening & hill views."
-      },
-      {
-        "day": 9,
-        "title": "Dalhousie & Khajjiar",
-        "desc": "Mini Switzerland of India."
-      },
-      { "day": 10, "title": "Dalhousie to Delhi", "desc": "Overnight return." },
-      {
-        "day": 11,
-        "title": "Arrival in Delhi",
-        "desc": "Tour ends with beautiful memories."
-      }
-    ]
-  },
-  {
-    "slug": "shimla-manali-delhi",
-    "title": "Shimla Manali Tour from Delhi",
-    "image": "shimla-1.jpg",
-    "duration": "5N / 6D",
-    "price": "On Request",
-    "destinations": [
-      "Shimla",
-      "Kufri",
-      "Mashobra",
-      "Naldehra",
-      "Manali",
-      "Solang Valley",
-      "Rohtang Pass"
-    ],
-    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Delhi to Shimla",
-        "desc": "Drive from Delhi to Shimla – 370 km (8–9 hrs). Hotel check-in & evening leisure."
-      },
-      {
-        "day": 2,
-        "title": "Shimla – Kufri – Mashobra – Naldehra",
-        "desc": "Local sightseeing covering Kufri, Mashobra & Naldehra – 100 km. Return to Shimla."
-      },
-      {
-        "day": 3,
-        "title": "Shimla to Manali via Kullu",
-        "desc": "Scenic drive through Kullu Valley – 250 km (7–8 hrs). Hotel check-in."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 4,
-        "title": "Manali – Solang Valley – Rohtang Pass – Atal Tunnel – Sissu",
-        "desc": "Full-day excursion – 130 km. Subject to road & weather conditions."
-      },
-      {
-        "day": 5,
-        "title": "Manali Local Sightseeing & Naggar Castle",
-        "desc": "Hadimba Temple, Vashisht Hot Springs, Old Manali & Naggar Castle – 50 km."
-      },
-      {
-        "day": 6,
-        "title": "Manali to Delhi",
-        "desc": "Return drive – 540 km (11–12 hrs). Tour ends."
-      }
-    ]
-  },
-  {
-    "slug": "shimla-kasol-manali-chandigarh",
-    "title": "Shimla Kasol Manali Tour from Chandigarh",
-    "image": "manali-2.jpg",
-    "duration": "6N / 7D",
-    "price": "On Request",
-    "destinations": [
-      "Shimla",
-      "Kufri",
-      "Kasol",
-      "Manikaran",
-      "Tosh",
-      "Manali",
-      "Solang Valley"
-    ],
-    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Chandigarh to Shimla",
-        "desc": "Drive from Chandigarh to Shimla – 120 km (4–5 hrs). Hotel check-in."
-      },
-      {
-        "day": 2,
-        "title": "Shimla – Kufri – Mashobra – Naldehra",
-        "desc": "Local sightseeing – 100 km. Return to Shimla."
-      },
-      {
-        "day": 3,
-        "title": "Shimla to Kasol via Kullu & Bhuntar",
-        "desc": "Scenic drive through Parvati Valley – 220 km (7–8 hrs)."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 4,
-        "title": "Kasol – Manikaran – Tosh – Kasol",
-        "desc": "Local sightseeing including Manikaran Sahib & Tosh village – 50 km."
-      },
-      {
-        "day": 5,
-        "title": "Kasol to Manali & Local Manali",
-        "desc": "Drive to Manali – 75 km (2–3 hrs). Evening Manali local exploration."
-      },
-      {
-        "day": 6,
-        "title": "Manali – Solang Valley – Rohtang Pass – Atal Tunnel – Sissu",
-        "desc": "Full-day excursion – 130 km. Subject to road conditions."
-      },
-      {
-        "day": 7,
-        "title": "Manali to Chandigarh",
-        "desc": "Return drive – 310 km (8–9 hrs). Tour ends."
-      }
-    ]
-  },
-  {
-    "slug": "shimla-kasol-manali-delhi",
-    "title": "Shimla Kasol Manali Tour from Delhi",
-    "image": "manali-3.jpg",
-    "duration": "6N / 7D",
-    "price": "On Request",
-    "destinations": [
-      "Shimla",
-      "Kufri",
-      "Kasol",
-      "Manikaran",
-      "Manali",
-      "Solang Valley"
-    ],
-    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Delhi to Shimla",
-        "desc": "Drive from Delhi to Shimla – 370 km (8–9 hrs). Hotel check-in."
-      },
-      {
-        "day": 2,
-        "title": "Shimla – Kufri – Mashobra – Naldehra",
-        "desc": "Local sightseeing – 100 km. Return to Shimla."
-      },
-      {
-        "day": 3,
-        "title": "Shimla to Kasol via Kullu & Bhuntar",
-        "desc": "Scenic drive through Parvati Valley – 220 km (7–8 hrs)."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 4,
-        "title": "Kasol – Manikaran – Kasol",
-        "desc": "Local sightseeing including Manikaran Sahib – 50 km."
-      },
-      {
-        "day": 5,
-        "title": "Kasol to Manali & Local",
-        "desc": "Drive to Manali – 75 km (2–3 hrs). Evening local exploration."
-      },
-      {
-        "day": 6,
-        "title": "Manali – Solang Valley – Rohtang Pass – Atal Tunnel – Sissu",
-        "desc": "Full-day excursion – 130 km. Subject to road conditions."
-      },
-      {
-        "day": 7,
-        "title": "Manali to Delhi",
-        "desc": "Return drive – 540 km (11–12 hrs). Tour ends."
-      }
-    ]
-  },
-  {
-    "slug": "shimla-jibhi-kasol-manali-chandigarh",
-    "title": "Shimla Jibhi Kasol Manali Tour from Chandigarh",
-    "image": "jibhi.jpg",
-    "duration": "7N / 8D",
-    "price": "On Request",
-    "destinations": [
-      "Shimla",
-      "Kufri",
-      "Jibhi",
-      "Jalori Pass",
-      "Kasol",
-      "Manikaran",
-      "Tosh",
-      "Manali"
-    ],
-    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Chandigarh to Shimla",
-        "desc": "Drive from Chandigarh to Shimla – 120 km (4–5 hrs). Hotel check-in."
-      },
-      {
-        "day": 2,
-        "title": "Shimla – Kufri – Mashobra – Naldehra",
-        "desc": "Local sightseeing – 100 km. Return to Shimla."
-      },
-      {
-        "day": 3,
-        "title": "Shimla to Jibhi",
-        "desc": "Scenic mountain drive – 170 km (6–7 hrs). Hotel check-in."
-      },
-      {
-        "day": 4,
-        "title": "Jibhi – Jalori Pass – Soja – Jibhi",
-        "desc": "Trek & sightseeing around Jalori Pass & Soja village – 30 km."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 5,
-        "title": "Jibhi to Kasol",
-        "desc": "Drive through Parvati Valley – 80 km (3–4 hrs)."
-      },
-      {
-        "day": 6,
-        "title": "Kasol – Manikaran – Tosh – Kasol",
-        "desc": "Local sightseeing – 50 km."
-      },
-      {
-        "day": 7,
-        "title": "Kasol to Manali",
-        "desc": "Drive to Manali – 75 km (2–3 hrs)."
-      },
-      {
-        "day": 8,
-        "title": "Manali to Chandigarh",
-        "desc": "Return drive – 310 km (8–9 hrs). Tour ends."
-      }
-    ]
-  },
-  {
-    "slug": "shimla-jibhi-kasol-manali-delhi",
-    "title": "Shimla Jibhi Kasol Manali Tour from Delhi",
-    "image": "himachal-1.jpg",
-    "duration": "7N / 8D",
-    "price": "On Request",
-    "destinations": [
-      "Shimla",
-      "Kufri",
-      "Jibhi",
-      "Jalori Pass",
-      "Kasol",
-      "Manikaran",
-      "Tosh",
-      "Manali"
-    ],
-    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Delhi to Shimla",
-        "desc": "Drive from Delhi to Shimla – 370 km (8–9 hrs). Hotel check-in."
-      },
-      {
-        "day": 2,
-        "title": "Shimla – Kufri – Mashobra – Naldehra",
-        "desc": "Local sightseeing – 100 km. Return to Shimla."
-      },
-      {
-        "day": 3,
-        "title": "Shimla to Jibhi",
-        "desc": "Scenic mountain drive – 170 km (6–7 hrs). Hotel check-in."
-      },
-      {
-        "day": 4,
-        "title": "Jibhi – Jalori Pass – Soja – Jibhi",
-        "desc": "Trek & sightseeing around Jalori Pass & Soja village – 30 km."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 5,
-        "title": "Jibhi to Kasol",
-        "desc": "Drive through Parvati Valley – 80 km (3–4 hrs)."
-      },
-      {
-        "day": 6,
-        "title": "Kasol – Manikaran – Tosh – Kasol",
-        "desc": "Local sightseeing – 50 km."
-      },
-      {
-        "day": 7,
-        "title": "Kasol to Manali",
-        "desc": "Drive to Manali – 75 km (2–3 hrs)."
-      },
-      {
-        "day": 8,
-        "title": "Manali to Delhi",
-        "desc": "Return drive – 540 km (11–12 hrs). Tour ends."
-      }
-    ]
-  },
-  {
-    "slug": "jibhi-tirthan-shangarh",
-    "title": "Jibhi Tirthan Shangarh Tour from Chandigarh",
-    "image": "kinnaur-valley.jpg",
-    "duration": "4N / 5D",
-    "price": "On Request",
-    "destinations": [
-      "Jibhi",
-      "Jalori Pass",
-      "Tirthan Valley",
-      "Gushaini",
-      "Shangarh"
-    ],
-    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
-    "itinerary_short": [
-      {
-        "day": 1,
-        "title": "Chandigarh to Jibhi",
-        "desc": "Drive to Jibhi – 270 km (8–9 hrs). Hotel check-in."
-      },
-      {
-        "day": 2,
-        "title": "Jibhi – Jalori Pass – Soja – Jibhi",
-        "desc": "Trek & sightseeing around Jalori Pass & Soja village – 30 km."
-      }
-    ],
-    "itinerary_more": [
-      {
-        "day": 3,
-        "title": "Jibhi – Tirthan Valley – Gushaini – Jibhi",
-        "desc": "Riverside exploration & Gushaini village – 40 km."
-      },
-      {
-        "day": 4,
-        "title": "Jibhi to Shangarh & Local Sightseeing",
-        "desc": "Shangarh meadows & local sightseeing – 60 km."
-      },
-      {
-        "day": 5,
-        "title": "Shangarh to Chandigarh",
-        "desc": "Return drive – 250 km (7–8 hrs). Tour ends."
-      }
-    ]
-  }
+    {
+        "slug":  "spiti-10d",
+        "title":  "Spiti Valley Circuit - 10 Days / 9 Nights",
+        "image":  "kinnaur-spiti-valley.webp",
+        "duration":  "9N / 10D",
+        "price":  "On Request",
+        "destinations":  [
+                             "Shimla",
+                             "Narkanda",
+                             "Sarahan",
+                             "Sangla",
+                             "Chitkul",
+                             "Kalpa",
+                             "Nako",
+                             "Tabo",
+                             "Kaza",
+                             "Chandratal",
+                             "Manali"
+                         ],
+        "inclusions":  [
+                           "Hotel",
+                           "Sightseeing",
+                           "Meals",
+                           "Transfers"
+                       ],
+        "itinerary_short":  [
+                                {
+                                    "day":  1,
+                                    "title":  "Delhi / Chandigarh - Shimla - Kufri - Narkanda",
+                                    "desc":  "Arrive Shimla, drive to Narkanda via Kufri. Overnight in Narkanda."
+                                },
+                                {
+                                    "day":  2,
+                                    "title":  "Narkanda - Hatu Peak - Rampur - Sarahan - Sangla",
+                                    "desc":  "Visit Hatu Peak \u0026 Bhimakali Temple at Sarahan. Descend to Sangla Valley. Overnight in Sangla."
+                                },
+                                {
+                                    "day":  3,
+                                    "title":  "Sangla - Kamru Fort - Rakcham - Chitkul - Sangla",
+                                    "desc":  "Explore Kamru Fort and drive to Chitkul, the last village of India. Return to Sangla."
+                                }
+                            ],
+        "itinerary_more":  [
+                               {
+                                   "day":  4,
+                                   "title":  "Sangla - Reckong Peo - Kalpa - Roghi Village - Suicide Point",
+                                   "desc":  "Drive to Kalpa with stunning Kinner Kailash views. Visit Roghi Village and Suicide Point. Overnight in Kalpa."
+                               },
+                               {
+                                   "day":  5,
+                                   "title":  "Kalpa - Khab Bridge - Nako Lake - Gue Monastery - Tabo Monastery",
+                                   "desc":  "Confluence of Sutlej \u0026 Spiti at Khab Bridge. Visit serene Nako Lake and the famous Gue Mummy Monastery. Overnight in Tabo."
+                               },
+                               {
+                                   "day":  6,
+                                   "title":  "Tabo - Dhankar Monastery - Dhankar Village - Kaza",
+                                   "desc":  "Marvel at the clifftop Dhankar Monastery \u0026 turquoise lake. Arrive Kaza, the district headquarters of Spiti. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  7,
+                                   "title":  "Kaza - Langza - Komic - Hikkim - Kaza",
+                                   "desc":  "Visit Langza (Giant Buddha \u0026 fossils), Komic (world\u0027s highest motorable village), and Hikkim (world\u0027s highest post office). Overnight in Kaza."
+                               },
+                               {
+                                   "day":  8,
+                                   "title":  "Kaza - Key Monastery - Kibber - Chicham Bridge - Losar - Kunzum Pass - Chandratal",
+                                   "desc":  "Key Monastery perched on a cliff, Kibber village, Asia\u0027s highest suspension bridge at Chicham. Cross Kunzum Pass (4,550m) to Chandratal Lake. Overnight at Chandratal camp."
+                               },
+                               {
+                                   "day":  9,
+                                   "title":  "Chandratal - Batal - Chhatru - Gramphu - Koksar - Atal Tunnel - Manali",
+                                   "desc":  "Drive through dramatic lunar landscape. Pass through Atal Tunnel back to Manali. Overnight in Manali."
+                               },
+                               {
+                                   "day":  10,
+                                   "title":  "Manali - Kullu - Mandi - Chandigarh / Delhi",
+                                   "desc":  "Scenic drive back to Chandigarh or Delhi. Tour ends."
+                               }
+                           ],
+        "featured":  true
+    },
+    {
+        "slug":  "spiti-9d",
+        "title":  "Spiti Valley Circuit - 9 Days / 8 Nights",
+        "image":  "spiti-valley.jpg",
+        "duration":  "8N / 9D",
+        "price":  "On Request",
+        "destinations":  [
+                             "Shimla",
+                             "Narkanda",
+                             "Sarahan",
+                             "Sangla",
+                             "Chitkul",
+                             "Kalpa",
+                             "Nako",
+                             "Tabo",
+                             "Kaza",
+                             "Chandratal",
+                             "Manali"
+                         ],
+        "inclusions":  [
+                           "Hotel",
+                           "Sightseeing",
+                           "Meals",
+                           "Transfers"
+                       ],
+        "itinerary_short":  [
+                                {
+                                    "day":  1,
+                                    "title":  "Delhi / Chandigarh - Shimla - Kufri - Narkanda",
+                                    "desc":  "Arrive Shimla, drive to Narkanda via Kufri. Overnight in Narkanda."
+                                },
+                                {
+                                    "day":  2,
+                                    "title":  "Narkanda - Hatu Peak - Rampur - Sarahan - Sangla",
+                                    "desc":  "Hatu Peak \u0026 Bhimakali Temple. Descend to Sangla. Overnight in Sangla."
+                                },
+                                {
+                                    "day":  3,
+                                    "title":  "Sangla - Kamru Fort - Rakcham - Chitkul - Sangla",
+                                    "desc":  "Chitkul last village of India. Return to Sangla."
+                                }
+                            ],
+        "itinerary_more":  [
+                               {
+                                   "day":  4,
+                                   "title":  "Sangla - Reckong Peo - Kalpa - Roghi Village - Suicide Point",
+                                   "desc":  "Kinner Kailash views from Kalpa. Roghi Village and Suicide Point. Overnight in Kalpa."
+                               },
+                               {
+                                   "day":  5,
+                                   "title":  "Kalpa - Khab Bridge - Nako Lake - Gue Monastery - Tabo Monastery",
+                                   "desc":  "Khab Bridge confluence, Nako Lake \u0026 Gue Mummy Monastery. Overnight in Tabo."
+                               },
+                               {
+                                   "day":  6,
+                                   "title":  "Tabo - Dhankar Monastery - Dhankar Village - Kaza",
+                                   "desc":  "Clifftop Dhankar Monastery \u0026 Spiti River confluence. Arrive Kaza. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  7,
+                                   "title":  "Kaza - Langza - Komic - Hikkim - Kaza",
+                                   "desc":  "Giant Buddha at Langza, world\u0027s highest motorable village at Komic, world\u0027s highest post office at Hikkim. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  8,
+                                   "title":  "Kaza - Key Monastery - Kibber - Chicham Bridge - Kunzum Pass - Chandratal - Manali",
+                                   "desc":  "Key Monastery, Kibber, Chicham Bridge, cross Kunzum Pass (4,550m). Chandratal Lake, then drive to Manali via Atal Tunnel."
+                               },
+                               {
+                                   "day":  9,
+                                   "title":  "Manali - Kullu - Mandi - Chandigarh / Delhi",
+                                   "desc":  "Scenic return drive. Tour ends."
+                               }
+                           ]
+    },
+    {
+        "slug":  "spiti-8d",
+        "title":  "Spiti Valley Circuit - 8 Days / 7 Nights",
+        "image":  "kinnaur.webp",
+        "duration":  "7N / 8D",
+        "price":  "On Request",
+        "destinations":  [
+                             "Shimla",
+                             "Narkanda",
+                             "Sarahan",
+                             "Sangla",
+                             "Chitkul",
+                             "Kalpa",
+                             "Tabo",
+                             "Kaza",
+                             "Chandratal",
+                             "Manali"
+                         ],
+        "inclusions":  [
+                           "Hotel",
+                           "Sightseeing",
+                           "Meals",
+                           "Transfers"
+                       ],
+        "itinerary_short":  [
+                                {
+                                    "day":  1,
+                                    "title":  "Delhi / Chandigarh - Shimla - Kufri - Narkanda",
+                                    "desc":  "Arrive Shimla, drive to Narkanda via Kufri. Overnight in Narkanda."
+                                },
+                                {
+                                    "day":  2,
+                                    "title":  "Narkanda - Hatu Peak - Rampur - Sarahan - Sangla",
+                                    "desc":  "Hatu Peak \u0026 Bhimakali Temple. Descend to Sangla. Overnight in Sangla."
+                                },
+                                {
+                                    "day":  3,
+                                    "title":  "Sangla - Kamru Fort - Rakcham - Chitkul - Reckong Peo - Kalpa",
+                                    "desc":  "Chitkul last village, then drive to Kalpa with Kinner Kailash views. Overnight in Kalpa."
+                                }
+                            ],
+        "itinerary_more":  [
+                               {
+                                   "day":  4,
+                                   "title":  "Kalpa - Roghi Village - Khab Bridge - Nako Lake - Gue Monastery - Tabo Monastery",
+                                   "desc":  "Khab confluence, Nako Lake, Gue Mummy. Overnight in Tabo."
+                               },
+                               {
+                                   "day":  5,
+                                   "title":  "Tabo - Dhankar Monastery - Dhankar Village - Kaza",
+                                   "desc":  "Ancient Tabo Monastery (1,000+ years old). Clifftop Dhankar. Arrive Kaza. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  6,
+                                   "title":  "Kaza - Langza - Komic - Hikkim - Kaza",
+                                   "desc":  "Langza, Komic, Hikkim - Spiti\u0027s iconic high-altitude villages. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  7,
+                                   "title":  "Kaza - Key Monastery - Kibber - Chicham Bridge - Kunzum Pass - Chandratal - Manali",
+                                   "desc":  "Full-day drive from Kaza across Kunzum Pass (4,550m) via Chandratal to Manali through Atal Tunnel."
+                               },
+                               {
+                                   "day":  8,
+                                   "title":  "Manali - Kullu - Mandi - Chandigarh / Delhi",
+                                   "desc":  "Return drive. Tour ends."
+                               }
+                           ]
+    },
+    {
+        "slug":  "spiti-7d-chandigarh",
+        "title":  "Spiti Valley Circuit - 7 Days / 6 Nights from Chandigarh",
+        "image":  "kinnaur-valley.jpg",
+        "duration":  "6N / 7D",
+        "price":  "On Request",
+        "destinations":  [
+                             "Shimla",
+                             "Sarahan",
+                             "Sangla",
+                             "Chitkul",
+                             "Kalpa",
+                             "Nako",
+                             "Tabo",
+                             "Kaza",
+                             "Chandratal",
+                             "Manali"
+                         ],
+        "inclusions":  [
+                           "Hotel",
+                           "Sightseeing",
+                           "Meals",
+                           "Transfers"
+                       ],
+        "itinerary_short":  [
+                                {
+                                    "day":  1,
+                                    "title":  "Chandigarh / Shimla - Kufri - Narkanda - Rampur - Sarahan - Sangla",
+                                    "desc":  "Covering Kufri, Narkanda, Bhimakali Temple at Sarahan, then down to Sangla Valley. Overnight in Sangla."
+                                },
+                                {
+                                    "day":  2,
+                                    "title":  "Sangla - Kamru Fort - Rakcham - Chitkul - Reckong Peo - Kalpa",
+                                    "desc":  "Morning Chitkul visit, afternoon drive to Kalpa. Kinner Kailash panorama at sunset. Overnight in Kalpa."
+                                },
+                                {
+                                    "day":  3,
+                                    "title":  "Kalpa - Khab Bridge - Nako Lake - Gue Monastery - Tabo Monastery",
+                                    "desc":  "Khab confluence, Nako Lake, Gue Mummy. Overnight in Tabo."
+                                }
+                            ],
+        "itinerary_more":  [
+                               {
+                                   "day":  4,
+                                   "title":  "Tabo - Dhankar Monastery - Dhankar Village - Kaza",
+                                   "desc":  "Ancient Tabo Monastery (1,000+ years old). Clifftop Dhankar. Arrive Kaza. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  5,
+                                   "title":  "Kaza - Langza - Komic - Hikkim - Kaza",
+                                   "desc":  "Langza fossil village, Komic (world\u0027s highest motorable village), Hikkim post office. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  6,
+                                   "title":  "Kaza - Key Monastery - Kibber - Chicham Bridge - Kunzum Pass - Chandratal - Manali",
+                                   "desc":  "Key Monastery, Kibber, Chicham Bridge, Kunzum Pass (4,550m), Chandratal Lake, Atal Tunnel - epic final high-altitude day."
+                               },
+                               {
+                                   "day":  7,
+                                   "title":  "Manali - Kullu - Mandi - Chandigarh / Delhi",
+                                   "desc":  "Return drive to Chandigarh or Delhi. Tour ends."
+                               }
+                           ]
+    },
+    {
+        "slug":  "spiti-7d-kinnaur-loop",
+        "title":  "Spiti Valley - Kinnaur Loop (Return via Kinnaur)",
+        "image":  "pin-dhaba.jpg",
+        "duration":  "6N / 7D",
+        "price":  "On Request",
+        "destinations":  [
+                             "Shimla",
+                             "Narkanda",
+                             "Sangla",
+                             "Chitkul",
+                             "Nako",
+                             "Tabo",
+                             "Kaza",
+                             "Kibber",
+                             "Kalpa",
+                             "Sarahan"
+                         ],
+        "inclusions":  [
+                           "Hotel",
+                           "Sightseeing",
+                           "Meals",
+                           "Transfers"
+                       ],
+        "itinerary_short":  [
+                                {
+                                    "day":  1,
+                                    "title":  "Shimla - Kufri - Narkanda - Rampur - Sangla",
+                                    "desc":  "Drive from Shimla through Kufri, Narkanda to Sangla Valley. Overnight in Sangla."
+                                },
+                                {
+                                    "day":  2,
+                                    "title":  "Sangla - Chitkul - Khab Bridge - Nako",
+                                    "desc":  "Visit Chitkul (last Indian village), cross into Spiti at Khab Bridge. Overnight at Nako Lake."
+                                },
+                                {
+                                    "day":  3,
+                                    "title":  "Nako - Gue Monastery - Tabo Monastery - Dhankar - Kaza",
+                                    "desc":  "Gue Mummy, ancient Tabo Monastery, clifftop Dhankar. Arrive Kaza. Overnight in Kaza."
+                                }
+                            ],
+        "itinerary_more":  [
+                               {
+                                   "day":  4,
+                                   "title":  "Kaza - Langza - Komic - Hikkim - Key Monastery - Kibber - Chicham Bridge - Kaza",
+                                   "desc":  "Full Spiti valley day covering all iconic high-altitude villages and monasteries. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  5,
+                                   "title":  "Kaza - Tabo - Nako - Khab Bridge - Kalpa",
+                                   "desc":  "Return via same Kinnaur route, arriving Kalpa with Kinner Kailash evening views. Overnight in Kalpa."
+                               },
+                               {
+                                   "day":  6,
+                                   "title":  "Kalpa - Reckong Peo - Sangla - Sarahan - Narkanda / Shimla",
+                                   "desc":  "Sangla Valley once more. Bhimakali Temple at Sarahan. Drive to Narkanda or Shimla. Overnight."
+                               },
+                               {
+                                   "day":  7,
+                                   "title":  "Narkanda / Shimla - Chandigarh",
+                                   "desc":  "Morning drive back to Chandigarh. Tour ends."
+                               }
+                           ]
+    },
+    {
+        "slug":  "spiti-manali-kinnaur-circuit",
+        "title":  "Manali - Spiti - Kinnaur Circuit - 10 Days / 9 Nights",
+        "image":  "manali-3.jpg",
+        "duration":  "9N / 10D",
+        "price":  "On Request",
+        "destinations":  [
+                             "Manali",
+                             "Chandratal",
+                             "Kaza",
+                             "Langza",
+                             "Tabo",
+                             "Nako",
+                             "Kalpa",
+                             "Sangla",
+                             "Chitkul",
+                             "Sarahan",
+                             "Shimla"
+                         ],
+        "inclusions":  [
+                           "Hotel",
+                           "Sightseeing",
+                           "Meals",
+                           "Transfers"
+                       ],
+        "itinerary_short":  [
+                                {
+                                    "day":  1,
+                                    "title":  "Chandigarh - Mandi - Kullu - Manali",
+                                    "desc":  "Scenic drive to Manali through Kullu Valley. Overnight in Manali."
+                                },
+                                {
+                                    "day":  2,
+                                    "title":  "Manali - Atal Tunnel - Koksar - Chhatru - Batal - Chandratal",
+                                    "desc":  "Drive through Atal Tunnel into Lahaul, across the moonscape to Chandratal Lake. Overnight at Chandratal camp."
+                                },
+                                {
+                                    "day":  3,
+                                    "title":  "Chandratal - Kunzum Pass - Losar - Key Monastery - Kibber - Chicham Bridge - Kaza",
+                                    "desc":  "Cross Kunzum Pass (4,550m), visit Key Monastery, Kibber, Chicham Bridge. Arrive Kaza. Overnight in Kaza."
+                                }
+                            ],
+        "itinerary_more":  [
+                               {
+                                   "day":  4,
+                                   "title":  "Kaza - Langza - Komic - Hikkim - Kaza",
+                                   "desc":  "Langza fossil village, Komic highest village, Hikkim post office. Overnight in Kaza."
+                               },
+                               {
+                                   "day":  5,
+                                   "title":  "Kaza - Dhankar Monastery - Tabo Monastery",
+                                   "desc":  "Clifftop Dhankar fortress monastery. Ancient Tabo Monastery (est. 996 AD). Overnight in Tabo."
+                               },
+                               {
+                                   "day":  6,
+                                   "title":  "Tabo - Gue Monastery - Nako - Khab Bridge - Kalpa",
+                                   "desc":  "Gue Mummy monastery, Nako Lake, Khab confluence. Drive to Kalpa with Kinner Kailash views. Overnight in Kalpa."
+                               },
+                               {
+                                   "day":  7,
+                                   "title":  "Kalpa - Reckong Peo - Sangla Valley",
+                                   "desc":  "Reckong Peo formalities, descend into lush Sangla Valley. Overnight in Sangla."
+                               },
+                               {
+                                   "day":  8,
+                                   "title":  "Sangla - Rakcham - Chitkul - Sangla",
+                                   "desc":  "Explore Chitkul, India\u0027s last inhabited village on the Indo-Tibet border. Return to Sangla. Overnight in Sangla."
+                               },
+                               {
+                                   "day":  9,
+                                   "title":  "Sangla - Sarahan - Rampur - Narkanda - Shimla",
+                                   "desc":  "Bhimakali Temple at Sarahan. Drive through apple orchards to Shimla. Overnight in Shimla."
+                               },
+                               {
+                                   "day":  10,
+                                   "title":  "Shimla - Chandigarh / Delhi",
+                                   "desc":  "Morning leisure in Shimla. Drive back to Chandigarh or Delhi. Tour ends."
+                               }
+                           ]
+    }
 ]

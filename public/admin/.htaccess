@@ -1,0 +1,9 @@
+# Admin panel – restrict to localhost in production
+# Uncomment the lines below when deploying to a live server:
+#
+# Order Deny,Allow
+# Deny from all
+# Allow from 127.0.0.1
+# Allow from ::1
+
+Options -Indexes

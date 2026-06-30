@@ -34,7 +34,7 @@ include __DIR__ . '/../partials/header.php';
             </div>
 
             <h1 class="me-thanks__title">You're All Set! 🎉</h1>
-            <p class="me-thanks__sub">Your enquiry has been received. Our travel expert will get in touch with you shortly with the perfect Himachal package.</p>
+            <p class="me-thanks__sub">Your enquiry has been received. Our Spiti travel expert will get in touch with you shortly with a personalised itinerary and the best rates.</p>
 
             <!-- Urgency strip -->
             <div class="me-thanks__urgency">
@@ -83,9 +83,9 @@ include __DIR__ . '/../partials/header.php';
 
             <!-- Trust strip -->
             <div class="me-thanks__trust">
-                <span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Himachal Tourism Approved</span>
+                <span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Govt. Approved Operator</span>
                 <span><i class="fa-solid fa-star" aria-hidden="true"></i> 4.9/5 on Google</span>
-                <span><i class="fa-solid fa-users" aria-hidden="true"></i> 10,000+ Happy Travellers</span>
+                <span><i class="fa-solid fa-users" aria-hidden="true"></i> 500+ Spiti Explorers</span>
             </div>
 
         </div>

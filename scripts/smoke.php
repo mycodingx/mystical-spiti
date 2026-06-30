@@ -69,7 +69,7 @@ $result = $svc->process([
     'city'        => 'Delhi',
     'email'       => 'test@example.com',
     'phone'       => '9876543210',
-    'destination' => 'Manali Tour Package',
+    'destination' => 'Spiti Valley Circuit - 10 Days / 9 Nights',
     'website'     => '', // honeypot
 ], '127.0.0.1', 'PHP CLI', 'http://localhost');
 
@@ -105,7 +105,7 @@ $result = $svc->process([
     'city'        => 'BotCity',
     'email'       => 'bot@example.com',
     'phone'       => '9876543211',
-    'destination' => 'Manali Tour Package',
+    'destination' => 'Spiti Valley Circuit - 10 Days / 9 Nights',
     'website'     => 'http://spam.com', // BOT FILLED IT
 ], '127.0.0.3', 'bot/1.0', '');
 

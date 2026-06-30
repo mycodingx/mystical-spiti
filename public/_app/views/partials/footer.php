@@ -103,8 +103,8 @@ $flashErr = $_GET['err'] ?? null;
                 <p class="me-exit-intent__eyebrow">⏳ Wait! Before you go...</p>
 
                 <div class="me-modal__offer" id="exitIntentTitle">
-                    <i class="fa-solid fa-tag" aria-hidden="true"></i>
-                    Book Now &amp; Get Up to <strong>15% OFF</strong> on Shimla Manali Tour Package
+                    <i class="fa-solid fa-mountain" aria-hidden="true"></i>
+                    Early Bird Offer — Book Spiti Valley &amp; <strong>Save Big</strong> This Season!
                 </div>
 
                 <p class="me-exit-intent__sub">Fill in your details and our travel expert will share an exclusive quote within 15 minutes.</p>
@@ -133,7 +133,7 @@ $flashErr = $_GET['err'] ?? null;
                     </div>
                     <button type="submit" name="contact_submit" class="me-btn me-btn--accent me-btn--block">
                         <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
-                        Claim My 15% OFF Now
+                        Claim My Early Bird Deal
                     </button>
                     <div class="me-form__message" data-form-message role="status" aria-live="polite"></div>
                 </form>
@@ -156,8 +156,8 @@ $flashErr = $_GET['err'] ?? null;
             </div>
 
             <div class="me-modal__offer">
-                <i class="fa-solid fa-tag" aria-hidden="true"></i>
-                Book Now &amp; Get Up to <strong>15% OFF</strong> on Shimla Manali Tour Package
+                <i class="fa-solid fa-mountain" aria-hidden="true"></i>
+                Early Bird Offer — Book Spiti Valley &amp; <strong>Save Big</strong> This Season!
             </div>
 
             <form method="POST" action="submit.php" class="me-form me-form--stacked" data-ajax-form>

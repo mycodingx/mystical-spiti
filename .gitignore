@@ -50,3 +50,9 @@ composer.phar
 # Backup files
 *.bak
 *.orig
+# Client docs / screenshots (local only)
+*.docx
+*.png
+*.jpg
+*.jpeg
+!public/assets/img/**

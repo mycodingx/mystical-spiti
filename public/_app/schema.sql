@@ -28,8 +28,19 @@ CREATE INDEX IF NOT EXISTS idx_leads_status ON leads(status);
 CREATE INDEX IF NOT EXISTS idx_leads_destination ON leads(destination);
 
 -- ============================================================
--- View: latest leads for admin dashboard (future)
+-- Admin Users
 -- ============================================================
+CREATE TABLE IF NOT EXISTS admin_users (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    username     TEXT NOT NULL UNIQUE COLLATE NOCASE,
+    password_hash TEXT NOT NULL,
+    role         TEXT NOT NULL DEFAULT 'viewer', -- 'admin' | 'viewer'
+    created_by   INTEGER REFERENCES admin_users(id),
+    created_at   DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    last_login_at DATETIME
+);
+
+CREATE INDEX IF NOT EXISTS idx_admin_users_username ON admin_users(username);
 CREATE VIEW IF NOT EXISTS v_leads_summary AS
 SELECT
     id,
