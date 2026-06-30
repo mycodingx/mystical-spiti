@@ -184,6 +184,13 @@ ul {
 }
 
 /* ----- Top bar (announcement strip) ----- */
+/* Sticky wrapper holds both top-bar + nav together */
+.me-sticky-wrap {
+  position: sticky;
+  top: 0;
+  z-index: var(--me-z-sticky);
+}
+
 .me-top-bar {
   background: var(--me-color-bg-dark);
   padding: 7px 0;
@@ -219,9 +226,6 @@ ul {
   background: #0a1422;
   padding: var(--me-space-2) 0;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
-  position: sticky;
-  top: 0;
-  z-index: var(--me-z-sticky);
 }
 .me-top-header::after {
   content: "";

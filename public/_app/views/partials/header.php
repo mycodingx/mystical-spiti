@@ -113,6 +113,9 @@ $schema = [
     </a>
 </div>
 
+<!-- Sticky wrapper: announcement bar + nav stick together -->
+<div class="me-sticky-wrap">
+
 <!-- Announcement strip -->
 <div class="me-top-bar" role="complementary" aria-label="Announcement">
     <div class="container">
@@ -160,6 +163,8 @@ $schema = [
         </div>
     </div>
 </header>
+
+</div><!-- /.me-sticky-wrap -->
 
 <!-- Hero section -->
 <?php if (empty($hideHero)): ?>
