@@ -1,0 +1,586 @@
+[
+  {
+    "slug": "shimla",
+    "title": "Shimla Tour Package",
+    "image": "shimla.jpg",
+    "duration": "3N / 4D",
+    "price": "On Request",
+    "destinations": ["Shimla", "Kufri", "Chail", "Mall Road"],
+    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Arrival in Shimla",
+        "desc": "Hotel check-in, evening visit to Mall Road and the Ridge."
+      },
+      {
+        "day": 2,
+        "title": "Shimla & Kufri Sightseeing",
+        "desc": "Kufri, Green Valley, and Jakhoo Temple."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Chail Excursion",
+        "desc": "Chail Palace and Cricket Ground."
+      },
+      {
+        "day": 4,
+        "title": "Departure from Shimla",
+        "desc": "Check-out and departure."
+      }
+    ]
+  },
+  {
+    "slug": "manali",
+    "title": "Manali Tour Package",
+    "image": "manali-4.jpg",
+    "duration": "5N / 6D",
+    "price": "On Request",
+    "destinations": ["Manali", "Kullu", "Solang Valley"],
+    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Delhi to Manali (Overnight Volvo)",
+        "desc": "Evening departure by AC Volvo."
+      },
+      {
+        "day": 2,
+        "title": "Arrival in Manali & Leisure",
+        "desc": "Hotel check-in, rest & romantic Mall Road walk."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Solang Valley / Rohtang Pass",
+        "desc": "Snow activities, scenic views (seasonal)."
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Sightseeing",
+        "desc": "Hadimba Temple, Vashisht Hot Springs & Old Manali."
+      },
+      {
+        "day": 5,
+        "title": "Kullu & Manikaran Excursion",
+        "desc": "Kullu Valley & Manikaran Sahib hot springs."
+      },
+      {
+        "day": 6,
+        "title": "Manali to Delhi",
+        "desc": "Comfortable return journey."
+      }
+    ]
+  },
+  {
+    "slug": "shimla-manali",
+    "title": "Shimla Manali Tour from Chandigarh",
+    "image": "manali-4.jpg",
+    "duration": "5N / 6D",
+    "price": "On Request",
+    "destinations": ["Shimla", "Kufri", "Manali"],
+    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Chandigarh to Shimla",
+        "desc": "Scenic drive & hotel check-in."
+      },
+      {
+        "day": 2,
+        "title": "Shimla Local Sightseeing",
+        "desc": "Kufri, Jakhoo Temple, Mall Road & Ridge."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Shimla to Manali",
+        "desc": "Drive via Kullu Valley."
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Sightseeing",
+        "desc": "Hadimba Temple, Vashisht, Tibetan Monastery."
+      },
+      {
+        "day": 5,
+        "title": "Solang Valley / Rohtang Pass",
+        "desc": "Snow activities & mountain views (seasonal)."
+      },
+      {
+        "day": 6,
+        "title": "Manali to Chandigarh",
+        "desc": "Return journey & tour ends."
+      }
+    ]
+  },
+  {
+    "slug": "sissu-keylong",
+    "title": "Sissu | Keylong | Jispa & Baralacha Pass",
+    "image": "manali-3.jpg",
+    "duration": "3N / 4D",
+    "price": "On Request",
+    "destinations": ["Sissu", "Keylong", "Jispa", "Atal Tunnel"],
+    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Manali to Sissu",
+        "desc": "Manali - Solang - Atal Tunnel - Sissu."
+      },
+      {
+        "day": 2,
+        "title": "Sissu to Baralacha Pass",
+        "desc": "Tandi - Keylong - Jispa - Deepak Taal - Suraj Taal - Baralacha."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Keylong",
+        "desc": "Udaipur Trilokinath Temple - return to Keylong."
+      },
+      {
+        "day": 4,
+        "title": "Keylong | Departure",
+        "desc": "Keylong - Manali - return journey."
+      }
+    ]
+  },
+  {
+    "slug": "honeymoon",
+    "title": "Incredible Honeymoon Package",
+    "image": "himachal-3.jpg",
+    "duration": "4N / 5D",
+    "price": "On Request",
+    "destinations": ["Shimla", "Manali", "Kullu"],
+    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Arrival in Shimla",
+        "desc": "Check-in, relaxed evening together."
+      },
+      {
+        "day": 2,
+        "title": "Shimla Sightseeing & Kufri",
+        "desc": "Kufri, Mall Road, scenic mountain views."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Shimla to Manali",
+        "desc": "Romantic drive through valleys."
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Sightseeing",
+        "desc": "Hadimba Temple, Vashisht, Old Manali."
+      },
+      {
+        "day": 5,
+        "title": "Departure from Manali",
+        "desc": "Check-out and depart."
+      }
+    ]
+  },
+  {
+    "slug": "complete-himachal",
+    "title": "Complete Himachal Tour Package",
+    "image": "himachal-2.jpg",
+    "duration": "10N / 11D",
+    "price": "On Request",
+    "destinations": ["Shimla", "Manali", "Dharamshala", "Dalhousie"],
+    "inclusions": ["Flight", "Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Delhi to Shimla (Overnight Volvo)",
+        "desc": "Evening departure from Delhi."
+      },
+      {
+        "day": 2,
+        "title": "Shimla Arrival & Local Sightseeing",
+        "desc": "Kufri, Jakhoo, Mall Road."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Shimla to Manali",
+        "desc": "Scenic drive via Kullu Valley."
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Sightseeing",
+        "desc": "Hadimba, Vashisht, Tibetan Monastery."
+      },
+      {
+        "day": 5,
+        "title": "Solang Valley / Rohtang Pass",
+        "desc": "Snow activities (seasonal)."
+      },
+      {
+        "day": 6,
+        "title": "Manali to Dharamshala",
+        "desc": "Palampur tea gardens en route."
+      },
+      {
+        "day": 7,
+        "title": "Dharamshala & McLeodganj",
+        "desc": "Dalai Lama Temple, Bhagsu Falls."
+      },
+      {
+        "day": 8,
+        "title": "Dharamshala to Dalhousie",
+        "desc": "Leisure evening & hill views."
+      },
+      {
+        "day": 9,
+        "title": "Dalhousie & Khajjiar",
+        "desc": "Mini Switzerland of India."
+      },
+      { "day": 10, "title": "Dalhousie to Delhi", "desc": "Overnight return." },
+      {
+        "day": 11,
+        "title": "Arrival in Delhi",
+        "desc": "Tour ends with beautiful memories."
+      }
+    ]
+  },
+  {
+    "slug": "shimla-manali-delhi",
+    "title": "Shimla Manali Tour from Delhi",
+    "image": "shimla-1.jpg",
+    "duration": "5N / 6D",
+    "price": "On Request",
+    "destinations": [
+      "Shimla",
+      "Kufri",
+      "Mashobra",
+      "Naldehra",
+      "Manali",
+      "Solang Valley",
+      "Rohtang Pass"
+    ],
+    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Delhi to Shimla",
+        "desc": "Drive from Delhi to Shimla – 370 km (8–9 hrs). Hotel check-in & evening leisure."
+      },
+      {
+        "day": 2,
+        "title": "Shimla – Kufri – Mashobra – Naldehra",
+        "desc": "Local sightseeing covering Kufri, Mashobra & Naldehra – 100 km. Return to Shimla."
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Manali via Kullu",
+        "desc": "Scenic drive through Kullu Valley – 250 km (7–8 hrs). Hotel check-in."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 4,
+        "title": "Manali – Solang Valley – Rohtang Pass – Atal Tunnel – Sissu",
+        "desc": "Full-day excursion – 130 km. Subject to road & weather conditions."
+      },
+      {
+        "day": 5,
+        "title": "Manali Local Sightseeing & Naggar Castle",
+        "desc": "Hadimba Temple, Vashisht Hot Springs, Old Manali & Naggar Castle – 50 km."
+      },
+      {
+        "day": 6,
+        "title": "Manali to Delhi",
+        "desc": "Return drive – 540 km (11–12 hrs). Tour ends."
+      }
+    ]
+  },
+  {
+    "slug": "shimla-kasol-manali-chandigarh",
+    "title": "Shimla Kasol Manali Tour from Chandigarh",
+    "image": "manali-2.jpg",
+    "duration": "6N / 7D",
+    "price": "On Request",
+    "destinations": [
+      "Shimla",
+      "Kufri",
+      "Kasol",
+      "Manikaran",
+      "Tosh",
+      "Manali",
+      "Solang Valley"
+    ],
+    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Chandigarh to Shimla",
+        "desc": "Drive from Chandigarh to Shimla – 120 km (4–5 hrs). Hotel check-in."
+      },
+      {
+        "day": 2,
+        "title": "Shimla – Kufri – Mashobra – Naldehra",
+        "desc": "Local sightseeing – 100 km. Return to Shimla."
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Kasol via Kullu & Bhuntar",
+        "desc": "Scenic drive through Parvati Valley – 220 km (7–8 hrs)."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 4,
+        "title": "Kasol – Manikaran – Tosh – Kasol",
+        "desc": "Local sightseeing including Manikaran Sahib & Tosh village – 50 km."
+      },
+      {
+        "day": 5,
+        "title": "Kasol to Manali & Local Manali",
+        "desc": "Drive to Manali – 75 km (2–3 hrs). Evening Manali local exploration."
+      },
+      {
+        "day": 6,
+        "title": "Manali – Solang Valley – Rohtang Pass – Atal Tunnel – Sissu",
+        "desc": "Full-day excursion – 130 km. Subject to road conditions."
+      },
+      {
+        "day": 7,
+        "title": "Manali to Chandigarh",
+        "desc": "Return drive – 310 km (8–9 hrs). Tour ends."
+      }
+    ]
+  },
+  {
+    "slug": "shimla-kasol-manali-delhi",
+    "title": "Shimla Kasol Manali Tour from Delhi",
+    "image": "manali-3.jpg",
+    "duration": "6N / 7D",
+    "price": "On Request",
+    "destinations": [
+      "Shimla",
+      "Kufri",
+      "Kasol",
+      "Manikaran",
+      "Manali",
+      "Solang Valley"
+    ],
+    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Delhi to Shimla",
+        "desc": "Drive from Delhi to Shimla – 370 km (8–9 hrs). Hotel check-in."
+      },
+      {
+        "day": 2,
+        "title": "Shimla – Kufri – Mashobra – Naldehra",
+        "desc": "Local sightseeing – 100 km. Return to Shimla."
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Kasol via Kullu & Bhuntar",
+        "desc": "Scenic drive through Parvati Valley – 220 km (7–8 hrs)."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 4,
+        "title": "Kasol – Manikaran – Kasol",
+        "desc": "Local sightseeing including Manikaran Sahib – 50 km."
+      },
+      {
+        "day": 5,
+        "title": "Kasol to Manali & Local",
+        "desc": "Drive to Manali – 75 km (2–3 hrs). Evening local exploration."
+      },
+      {
+        "day": 6,
+        "title": "Manali – Solang Valley – Rohtang Pass – Atal Tunnel – Sissu",
+        "desc": "Full-day excursion – 130 km. Subject to road conditions."
+      },
+      {
+        "day": 7,
+        "title": "Manali to Delhi",
+        "desc": "Return drive – 540 km (11–12 hrs). Tour ends."
+      }
+    ]
+  },
+  {
+    "slug": "shimla-jibhi-kasol-manali-chandigarh",
+    "title": "Shimla Jibhi Kasol Manali Tour from Chandigarh",
+    "image": "jibhi.jpg",
+    "duration": "7N / 8D",
+    "price": "On Request",
+    "destinations": [
+      "Shimla",
+      "Kufri",
+      "Jibhi",
+      "Jalori Pass",
+      "Kasol",
+      "Manikaran",
+      "Tosh",
+      "Manali"
+    ],
+    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Chandigarh to Shimla",
+        "desc": "Drive from Chandigarh to Shimla – 120 km (4–5 hrs). Hotel check-in."
+      },
+      {
+        "day": 2,
+        "title": "Shimla – Kufri – Mashobra – Naldehra",
+        "desc": "Local sightseeing – 100 km. Return to Shimla."
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Jibhi",
+        "desc": "Scenic mountain drive – 170 km (6–7 hrs). Hotel check-in."
+      },
+      {
+        "day": 4,
+        "title": "Jibhi – Jalori Pass – Soja – Jibhi",
+        "desc": "Trek & sightseeing around Jalori Pass & Soja village – 30 km."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 5,
+        "title": "Jibhi to Kasol",
+        "desc": "Drive through Parvati Valley – 80 km (3–4 hrs)."
+      },
+      {
+        "day": 6,
+        "title": "Kasol – Manikaran – Tosh – Kasol",
+        "desc": "Local sightseeing – 50 km."
+      },
+      {
+        "day": 7,
+        "title": "Kasol to Manali",
+        "desc": "Drive to Manali – 75 km (2–3 hrs)."
+      },
+      {
+        "day": 8,
+        "title": "Manali to Chandigarh",
+        "desc": "Return drive – 310 km (8–9 hrs). Tour ends."
+      }
+    ]
+  },
+  {
+    "slug": "shimla-jibhi-kasol-manali-delhi",
+    "title": "Shimla Jibhi Kasol Manali Tour from Delhi",
+    "image": "himachal-1.jpg",
+    "duration": "7N / 8D",
+    "price": "On Request",
+    "destinations": [
+      "Shimla",
+      "Kufri",
+      "Jibhi",
+      "Jalori Pass",
+      "Kasol",
+      "Manikaran",
+      "Tosh",
+      "Manali"
+    ],
+    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Delhi to Shimla",
+        "desc": "Drive from Delhi to Shimla – 370 km (8–9 hrs). Hotel check-in."
+      },
+      {
+        "day": 2,
+        "title": "Shimla – Kufri – Mashobra – Naldehra",
+        "desc": "Local sightseeing – 100 km. Return to Shimla."
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Jibhi",
+        "desc": "Scenic mountain drive – 170 km (6–7 hrs). Hotel check-in."
+      },
+      {
+        "day": 4,
+        "title": "Jibhi – Jalori Pass – Soja – Jibhi",
+        "desc": "Trek & sightseeing around Jalori Pass & Soja village – 30 km."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 5,
+        "title": "Jibhi to Kasol",
+        "desc": "Drive through Parvati Valley – 80 km (3–4 hrs)."
+      },
+      {
+        "day": 6,
+        "title": "Kasol – Manikaran – Tosh – Kasol",
+        "desc": "Local sightseeing – 50 km."
+      },
+      {
+        "day": 7,
+        "title": "Kasol to Manali",
+        "desc": "Drive to Manali – 75 km (2–3 hrs)."
+      },
+      {
+        "day": 8,
+        "title": "Manali to Delhi",
+        "desc": "Return drive – 540 km (11–12 hrs). Tour ends."
+      }
+    ]
+  },
+  {
+    "slug": "jibhi-tirthan-shangarh",
+    "title": "Jibhi Tirthan Shangarh Tour from Chandigarh",
+    "image": "kinnaur-valley.jpg",
+    "duration": "4N / 5D",
+    "price": "On Request",
+    "destinations": [
+      "Jibhi",
+      "Jalori Pass",
+      "Tirthan Valley",
+      "Gushaini",
+      "Shangarh"
+    ],
+    "inclusions": ["Hotel", "Sightseeing", "Meals", "Transfers"],
+    "itinerary_short": [
+      {
+        "day": 1,
+        "title": "Chandigarh to Jibhi",
+        "desc": "Drive to Jibhi – 270 km (8–9 hrs). Hotel check-in."
+      },
+      {
+        "day": 2,
+        "title": "Jibhi – Jalori Pass – Soja – Jibhi",
+        "desc": "Trek & sightseeing around Jalori Pass & Soja village – 30 km."
+      }
+    ],
+    "itinerary_more": [
+      {
+        "day": 3,
+        "title": "Jibhi – Tirthan Valley – Gushaini – Jibhi",
+        "desc": "Riverside exploration & Gushaini village – 40 km."
+      },
+      {
+        "day": 4,
+        "title": "Jibhi to Shangarh & Local Sightseeing",
+        "desc": "Shangarh meadows & local sightseeing – 60 km."
+      },
+      {
+        "day": 5,
+        "title": "Shangarh to Chandigarh",
+        "desc": "Return drive – 250 km (7–8 hrs). Tour ends."
+      }
+    ]
+  }
+]

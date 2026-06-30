@@ -1,0 +1,52 @@
+# ============================================================
+
+# Block ALL HTTP access to the private \_app/ folder.
+
+#
+
+# Hosts may auto-serve this folder's PHP files (like .env) if
+
+# they live inside the web root. .htaccess here is a hard deny.
+
+# ============================================================
+
+# Apache 2.4+
+
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+
+# Apache 2.2 and earlier (legacy shared hosts)
+
+<IfModule !mod_authz_core.c>
+Order allow,deny
+Deny from all
+</IfModule>
+
+# Belt + suspenders — also prevent PHP execution
+
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
+
+# Block directory listing
+
+Options -Indexes
+
+# Prevent execution of any script files inside \_app/
+
+<FilesMatch "\.(php|php\d|phar|phtml|inc)$">
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order allow,deny
+Deny from all
+</IfModule>
+</FilesMatch>

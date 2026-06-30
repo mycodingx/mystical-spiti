@@ -1,0 +1,67 @@
+/* =============================================================
+ * Mystical Expedition - Design Tokens
+ * Edit colors/spacing/fonts here and the entire site updates.
+ * ============================================================= */
+
+:root {
+  /* Brand palette */
+  --me-color-primary: #298acc; /* sky blue */
+  --me-color-primary-dk: #1f6fa3;
+  --me-color-accent: #ff6b35; /* orange CTA */
+  --me-color-accent-dk: #e55a2b;
+  --me-color-success: #22c55e;
+  --me-color-warning: #f59e0b;
+  --me-color-danger: #ef4444;
+
+  /* Neutrals */
+  --me-color-ink: #0f1f33;
+  --me-color-text: #1f2a44;
+  --me-color-muted: #6b7280;
+  --me-color-border: #e5e7eb;
+  --me-color-bg: #ffffff;
+  --me-color-bg-alt: #f7f9fc;
+  --me-color-bg-dark: #0e1f3a;
+
+  /* Typography */
+  --me-font-body:
+    "Poppins", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  --me-font-heading: "Playfair Display", Georgia, serif;
+  --me-fs-base: 16px;
+  --me-fs-lg: 18px;
+  --me-fs-sm: 14px;
+  --me-fs-xs: 12px;
+
+  /* Spacing scale */
+  --me-space-1: 4px;
+  --me-space-2: 8px;
+  --me-space-3: 12px;
+  --me-space-4: 16px;
+  --me-space-5: 24px;
+  --me-space-6: 32px;
+  --me-space-7: 48px;
+  --me-space-8: 64px;
+  --me-space-9: 96px;
+
+  /* Layout */
+  --me-container-max: 1200px;
+  --me-radius-sm: 6px;
+  --me-radius: 10px;
+  --me-radius-lg: 18px;
+  --me-radius-xl: 28px;
+
+  /* Shadows */
+  --me-shadow-sm: 0 1px 3px rgba(15, 31, 51, 0.08);
+  --me-shadow: 0 4px 12px rgba(15, 31, 51, 0.08);
+  --me-shadow-md: 0 8px 24px rgba(15, 31, 51, 0.1);
+  --me-shadow-lg: 0 16px 48px rgba(15, 31, 51, 0.16);
+
+  /* Transitions */
+  --me-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --me-dur: 200ms;
+
+  /* z-index */
+  --me-z-floating: 90;
+  --me-z-sticky: 95;
+  --me-z-modal: 1000;
+}

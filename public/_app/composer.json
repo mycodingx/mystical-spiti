@@ -1,0 +1,27 @@
+{
+  "name": "mystical/expedition-landing",
+  "description": "Mystical Expedition - Himachal Tour Packages landing page (PHP, Bootstrap 5, SQLite)",
+  "type": "project",
+  "license": "Proprietary",
+  "require": {
+    "php": ">=8.1",
+    "phpmailer/phpmailer": "^6.9",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mystical\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {}
+  },
+  "scripts": {
+    "post-install-cmd": [],
+    "post-update-cmd": []
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

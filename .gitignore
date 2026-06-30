@@ -1,0 +1,52 @@
+# Dependencies (at root for any leftover patterns)
+/vendor/
+/node_modules/
+
+# Environment (NEVER commit real credentials)
+# The actual .env lives in public/_app/.env — see public/_app/.gitignore.
+/.env
+.env.local
+.env.*.local
+
+# Logs (and SQLite WAL files)
+/logs/*.log
+/logs/*.sqlite-journal
+/logs/*.sqlite-wal
+/logs/*.sqlite-shm
+
+# Diagnostic / debug scripts (developer only)
+/diag/
+
+# Root-level data (project data now lives in public/_app/data/)
+/data/*.sqlite
+/data/*.sqlite-journal
+
+# Root composer.phar (composer.json lives in public/_app/)
+composer.phar
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / cache
+*.cache
+*.tmp
+.phpunit.result.cache
+
+# Sensitive uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Composer
+composer.phar
+
+# Backup files
+*.bak
+*.orig

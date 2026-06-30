@@ -1,0 +1,132 @@
+# ============================================================
+
+# ROOT .htaccess — Hostinger shared hosting layout
+
+# (DocumentRoot = project root; PHP entry points live in /public/)
+
+# ============================================================
+
+# Disable directory listing
+
+Options -Indexes
+ServerSignature Off
+
+# Make sure index.php is the default landing
+
+DirectoryIndex index.php index.html
+
+# Allow rewrite engine
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # ============================================================
+    # 1. REDIRECT HTTP -> HTTPS (only outside localhost)
+    # ============================================================
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP_HOST} !^localhost [NC]
+    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1 [NC]
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # ============================================================
+    # 2. DENY ALL _app/ REQUESTS FIRST — privacy wall
+    # (Critical: never let Apache serve anything from /public/_app/
+    #  even if its own .htaccess is bypassed by a rewrite)
+    # ============================================================
+    RewriteRule ^_app(/.*)?$ - [F,L]
+    RewriteRule ^public/_app(/.*)?$ - [F,L]
+
+    # ============================================================
+    # 3. CLEAN URLS — route everything to /public/
+    # ============================================================
+
+    # Root "/" → explicit dispatch to /public/index.php
+    RewriteRule ^$ public/index.php [L]
+
+    # Requests already under /public/ → pass through
+    RewriteRule ^public/ - [L]
+
+    # Real files that exist at the top level (e.g. /robots.txt if moved) → serve as-is
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # Everything else: rewrite into /public/
+    RewriteRule ^(.*)$ public/$1 [L]
+
+</IfModule>
+
+# ============================================================
+
+# 4. CUSTOM ERROR PAGES — point at /public/404.php and /public/500.php
+
+# ============================================================
+
+ErrorDocument 404 /public/404.php
+ErrorDocument 500 /public/500.php
+
+# ============================================================
+
+# 5. SECURITY HEADERS
+
+# ============================================================
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # HSTS on HTTPS only
+    <IfModule mod_rewrite.c>
+        RewriteCond %{HTTPS} on
+        Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    </IfModule>
+
+    # Content-Security-Policy: same as in public/.htaccess
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com; frame-src https://www.googletagmanager.com;"
+
+    Header unset X-Powered-By
+    Header unset Server
+
+</IfModule>
+
+# ============================================================
+
+# 6. FILESYSTEM-LEVEL DENIES (FilesMatch)
+
+# ============================================================
+
+<FilesMatch "^(\.|composer\.|schema\.)">
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order allow,deny
+Deny from all
+</IfModule>
+</FilesMatch>
+
+<FilesMatch "\.(sqlite|sqlite3|sqlite-journal|sqlite-wal|sqlite-shm|log|md|lock|example|sql)$">
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order allow,deny
+Deny from all
+</IfModule>
+</FilesMatch>
+
+# ============================================================
+
+# 7. DENY SENSITIVE URL PATTERNS (works on rewritten URLs too)
+
+# ============================================================
+
+RedirectMatch 403 "/\.env(/|$)"
+RedirectMatch 403 "/\.env\.example(/|$)"
+RedirectMatch 403 "/vendor(/|$)"
+RedirectMatch 403 "/src(/|$)"
+RedirectMatch 403 "/data(/|$)"
+RedirectMatch 403 "/logs(/|$)"
+RedirectMatch 403 "/views(/|$)"
+RedirectMatch 403 "/composer\.(json|lock|phar)(/|$)"
+RedirectMatch 403 "/schema\.sql(/|$)"

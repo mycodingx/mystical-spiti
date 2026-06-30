@@ -1,0 +1,13 @@
+# Composer dependencies — installed on the server via `composer install`
+/vendor/
+
+# PHP error log — generated at runtime
+/logs/*.log
+!/logs/.gitkeep
+
+# SQLite database — generated at runtime
+/data/*.sqlite
+!/data/.gitkeep
+
+# Sensitive config — created on the server only
+/.env

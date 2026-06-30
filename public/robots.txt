@@ -1,0 +1,13 @@
+# ============================================================
+# robots.txt - Mystical Expedition
+# ============================================================
+User-agent: *
+Allow: /
+Disallow: /submit.php
+Disallow: /thanks.php
+
+# Crawl delay (optional - remove if you have plenty of crawl budget)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: /sitemap.xml
