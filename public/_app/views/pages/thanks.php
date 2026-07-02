@@ -10,8 +10,8 @@ use Mystical\Bootstrap;
 Bootstrap::init();
 
 $appName = Bootstrap::config('BUSINESS_NAME', 'Mystical Expedition');
-$phone   = Bootstrap::config('BUSINESS_PHONE', '+91-8219000937');
-$email   = Bootstrap::config('BUSINESS_EMAIL', 'info@mysticalexpedition.com');
+$phone   = Bootstrap::config('BUSINESS_PHONE', '+91-8894042702');
+$email   = Bootstrap::config('BUSINESS_EMAIL', 'mysticalexpedition@gmail.com');
 $appUrl  = Bootstrap::config('APP_URL', '');
 
 $packages = [];
@@ -69,7 +69,7 @@ include __DIR__ . '/../partials/header.php';
 
             <!-- CTAs -->
             <div class="me-thanks__actions">
-                <a href="https://wa.me/<?php echo htmlspecialchars(Bootstrap::config('BUSINESS_WHATSAPP','918219000937')) ?>?text=Hi%2C%20I%20just%20submitted%20an%20enquiry%20on%20your%20website." target="_blank" rel="noopener" class="me-btn me-btn--wa me-btn--lg">
+                <a href="https://wa.me/<?php echo htmlspecialchars(Bootstrap::config('BUSINESS_WHATSAPP','918894042702')) ?>?text=Hi%2C%20I%20just%20submitted%20an%20enquiry%20on%20your%20website." target="_blank" rel="noopener" class="me-btn me-btn--wa me-btn--lg">
                     <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp
                 </a>
                 <a href="tel:<?php echo htmlspecialchars($phone) ?>" class="me-btn me-btn--primary me-btn--lg">

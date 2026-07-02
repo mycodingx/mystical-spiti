@@ -16,10 +16,10 @@ foreach ([
     'APP_DEBUG' => 'false',
     'APP_URL' => '',
     'BUSINESS_NAME' => 'Mystical Expedition',
-    'BUSINESS_EMAIL' => 'info@test.local',
-    'BUSINESS_PHONE' => '+91-8219000937',
+    'BUSINESS_EMAIL' => 'mysticalexpedition@gmail.com',
+    'BUSINESS_PHONE' => '+91-8894042702',
     'BUSINESS_ADDRESS' => 'NH-22, opposite SBI Bank, Shoghi, Himachal Pradesh 171219',
-    'BUSINESS_WHATSAPP' => '918219000937',
+    'BUSINESS_WHATSAPP' => '918894042702',
     'LEADS_NOTIFY_EMAIL' => 'info@test.local',
     'DB_PATH' => 'data/leads.sqlite',
 ] as $k => $v) {

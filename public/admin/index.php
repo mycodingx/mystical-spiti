@@ -697,7 +697,7 @@ else:
                         <tbody>
                         <?php foreach ($leadsData as $lead):
                             $statusClass = match($lead['status']) { 'new'=>'status-new','called'=>'status-called','booked'=>'status-booked',default=>'status-other' };
-                            $wa = Bootstrap::config('BUSINESS_WHATSAPP','918219000937');
+                            $wa = Bootstrap::config('BUSINESS_WHATSAPP','918894042702');
                             $waMsg = urlencode("Hi {$lead['name']}, this is Mystical Expedition regarding your enquiry for {$lead['destination']}.");
                         ?>
                         <tr>

@@ -141,19 +141,19 @@ APP_URL=https://shimla.mysticalexpedition.com
 APP_NAME="Mystical Expedition"
 
 BUSINESS_NAME="Mystical Expedition"
-BUSINESS_EMAIL="info@mysticalexpedition.com"
-BUSINESS_PHONE="+91-8219000937"
+BUSINESS_EMAIL="mysticalexpedition@gmail.com"
+BUSINESS_PHONE="+91-8894042702"
 BUSINESS_ADDRESS="NH-22, opposite SBI Bank, Shoghi, Himachal Pradesh 171219"
-BUSINESS_WHATSAPP="918219000937"
+BUSINESS_WHATSAPP="918894042702"
 
-LEADS_NOTIFY_EMAIL="info@mysticalexpedition.com"
+LEADS_NOTIFY_EMAIL="mysticalexpedition@gmail.com"
 
 MAIL_HOST=smtp.hostinger.com
 MAIL_PORT=587
-MAIL_USERNAME=info@mysticalexpedition.com
+MAIL_USERNAME=mysticalexpedition@gmail.com
 MAIL_PASSWORD=YOUR_REAL_HOSTINGER_MAIL_PASSWORD_HERE
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=info@mysticalexpedition.com
+MAIL_FROM_ADDRESS=mysticalexpedition@gmail.com
 MAIL_FROM_NAME="Mystical Expedition"
 
 LEADS_RATE_LIMIT_PER_HOUR=5
