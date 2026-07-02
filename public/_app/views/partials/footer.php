@@ -8,10 +8,10 @@ use Mystical\Bootstrap;
 use Mystical\Csrf;
 
 $appName  = Bootstrap::config('BUSINESS_NAME', 'Mystical Expedition');
-$phone    = Bootstrap::config('BUSINESS_PHONE', '+91-8219000937');
-$email    = Bootstrap::config('BUSINESS_EMAIL', 'info@mysticalexpedition.com');
+$phone    = Bootstrap::config('BUSINESS_PHONE', '+91-8894042702');
+$email    = Bootstrap::config('BUSINESS_EMAIL', 'mysticalexpedition@gmail.com');
 $address  = Bootstrap::config('BUSINESS_ADDRESS', '');
-$whatsapp = Bootstrap::config('BUSINESS_WHATSAPP', '918219000937');
+$whatsapp = Bootstrap::config('BUSINESS_WHATSAPP', '918894042702');
 $appUrl   = Bootstrap::config('APP_URL', '');
 
 $destinations = array_map(static fn($p) => $p['title'], $packages ?? []);

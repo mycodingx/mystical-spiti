@@ -113,7 +113,7 @@
                Please <strong>try again in a moment</strong> or reach us directly on WhatsApp.</p>
             <div class="actions">
                 <a href="/" class="btn btn-home"><i class="fa-solid fa-house"></i> Back to Home</a>
-                <a href="https://wa.me/918219000937?text=Hi%2C%20I%20got%20a%20500%20error%20on%20your%20website" target="_blank" rel="noopener" class="btn btn-wa">
+                <a href="https://wa.me/918894042702?text=Hi%2C%20I%20got%20a%20500%20error%20on%20your%20website" target="_blank" rel="noopener" class="btn btn-wa">
                     <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
                 </a>
             </div>

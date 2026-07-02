@@ -118,13 +118,13 @@ $inclusionIcons = [
                 <span>Price: <strong><?php echo htmlspecialchars($price) ?></strong></span>
             </div>
             <div class="me-package-card__actions">
-                <a href="https://wa.me/<?php echo htmlspecialchars(Bootstrap::config('BUSINESS_WHATSAPP', '918219000937')) ?>?text=Hi%2C%20I%20want%20to%20book%20<?php echo urlencode($title) ?>"
+                <a href="https://wa.me/<?php echo htmlspecialchars(Bootstrap::config('BUSINESS_WHATSAPP', '918894042702')) ?>?text=Hi%2C%20I%20want%20to%20book%20<?php echo urlencode($title) ?>"
                    target="_blank" rel="noopener"
                    class="me-package-card__quick-btn me-package-card__quick-btn--wa"
                    aria-label="WhatsApp">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
-                <a href="tel:<?php echo htmlspecialchars(Bootstrap::config('BUSINESS_PHONE', '+91-8219000937')) ?>"
+                <a href="tel:<?php echo htmlspecialchars(Bootstrap::config('BUSINESS_PHONE', '+91-8894042702')) ?>"
                    class="me-package-card__quick-btn me-package-card__quick-btn--phone"
                    aria-label="Call">
                     <i class="fa-solid fa-phone"></i>
